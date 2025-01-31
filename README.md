@@ -10,4 +10,6 @@ You can easily understand it with tweaking them but anyways:
 - Noise Scale : float = Basically noise scale (bigger you enter, more the detail)
 - Noise Threshold : float = A value compared with noise value.
 - Except Density : bool = If true, objects will be able placed that cant be placed according to noise threshold.
+- Except Density Threshold : float = Distance from the main "object islands" to objects to be placed.
 - Except Chance : int = An object will be placed that cant be placed before in 1/except_chance chance.
+Sorry for the variable names! :) 
